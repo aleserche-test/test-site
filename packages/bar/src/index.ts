@@ -10,3 +10,4 @@ export const f = {f: 'f'}
 export const a1 = {a1: 'a1'}
 export const b1 = {b1: 'b1'}
 export const c1 = {c1: 'c1'}
+export const d1 = {d1: 'd1'}
