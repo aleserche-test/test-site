@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@aleserche-test/*": ["packages/*/src"]
+      "@aleserche.test/*": ["packages/*/src"]
     }
   }
 }
