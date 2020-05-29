@@ -1,6 +1,6 @@
 {
   "name": "@aleserche.test/foo",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@aleserche.test/bar": "0.8.1"
+    "@aleserche.test/bar": "0.8.2"
   },
   "publishConfig": {
     "access": "public"
