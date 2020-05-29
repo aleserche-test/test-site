@@ -1,6 +1,6 @@
 {
   "name": "@aleserche-test/foo",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "license": "MIT",
   "repository": "git@github.com:aleserche-test/test-site.git",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
     "postpack": "pubflow restore"
   },
   "dependencies": {
-    "@aleserche-test/bar": "0.14.1"
+    "@aleserche-test/bar": "0.15.0"
   },
   "devDependencies": {
     "@monstrs/publish-flow": "^0.1.3"

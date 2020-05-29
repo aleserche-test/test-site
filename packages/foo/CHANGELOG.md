@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.4](https://github.com/aleserche-test/test-site/compare/@aleserche-test/foo@0.6.3...@aleserche-test/foo@0.6.4) (2020-05-29)
+
+**Note:** Version bump only for package @aleserche-test/foo
+
+
+
+
+
 ## [0.6.3](https://github.com/aleserche-test/test-site/compare/@aleserche-test/foo@0.6.2...@aleserche-test/foo@0.6.3) (2020-05-29)
 
 **Note:** Version bump only for package @aleserche-test/foo
