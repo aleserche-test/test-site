@@ -2,6 +2,7 @@
   "name": "@aleserche-test/foo",
   "version": "0.6.2",
   "license": "MIT",
+  "repository": "git@github.com:aleserche-test/test-site.git",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "source": "src/index.ts",
