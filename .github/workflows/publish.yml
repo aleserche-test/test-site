@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: 'master'
+        fetch-depth: 0
     - run: |
         git config --global user.name "aleserche-test"
         git config --global user.email "66114692+aleserche-test@users.noreply.github.com"
