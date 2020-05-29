@@ -17,9 +17,9 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
         scope: '@aleserche.test'
     - run: yarn
-    - run: yarn lerna version
+    - run: yarn lerna version --yes
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-    - run: yarn lerna publish from-package --no-verify-access
+    - run: yarn lerna publish from-package --no-verify-access --yes
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
