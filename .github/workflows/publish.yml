@@ -40,7 +40,6 @@ jobs:
       with:
         node-version: '14.x'
         registry-url: 'https://npm.pkg.github.com'
-        scope: '@aleserche-test'
     - run: yarn lerna publish from-package --no-verify-access --yes
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
