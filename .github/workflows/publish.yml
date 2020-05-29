@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - run: |
+      git config --global user.name "github-actions[bot]"
+      git config --global user.email "66114692+github-actions[bot]@users.noreply.github.com"
     # Setup .npmrc file to publish to npm
     - uses: actions/setup-node@v1
       with:
