@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.6.0 (2020-05-29)
+
+
+### Features
+
+* rename package ([8962d3a](https://github.com/aleserche-test/test-site/commit/8962d3a1023fd6f0f8e9d436c4fd47d21ea4dbc4))
+* **foo:** add new bar ([51917d6](https://github.com/aleserche-test/test-site/commit/51917d64b86f91e54bce4851637463db1294694d))
+* **foo:** init foo package ([ad86126](https://github.com/aleserche-test/test-site/commit/ad86126e242ed144ad62f3e71bf06d87f2068326))
+* **foo:** new feat 1 ([e450dc8](https://github.com/aleserche-test/test-site/commit/e450dc867fb7ca7eac2ca63d3a6482756c46a72f))
+* **foo:** new feat 2 ([97639e0](https://github.com/aleserche-test/test-site/commit/97639e05eab16f9fd42b384d962b5c1ba5e9baa0))
+* **foo:** use bar ([9e4becc](https://github.com/aleserche-test/test-site/commit/9e4beccaab18699fabefcf420f1aba6a94300460))
+
+
+
+
+
 ## [0.5.8](https://github.com/aleserche-test/test-site/compare/@aleserche.test/foo@0.5.7...@aleserche.test/foo@0.5.8) (2020-05-29)
 
 **Note:** Version bump only for package @aleserche.test/foo

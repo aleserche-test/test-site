@@ -1,4 +1,4 @@
-import { a } from '@aleserche.test/bar'
+import { a } from '@aleserche-test/bar'
 
 console.log('foo')
 console.log('bar')
