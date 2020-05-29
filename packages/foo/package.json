@@ -15,6 +15,9 @@
     "prebuild": "yarn clean",
     "build": "tsc -p tsconfig.build.json"
   },
+  "dependencies": {
+    "@aleserche.test/bar": "0.5.0"
+  },
   "publishConfig": {
     "access": "public"
   }
