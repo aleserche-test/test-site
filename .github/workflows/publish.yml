@@ -30,10 +30,15 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '14.x'
+        registry-url: 'https://registry.npmjs.org'
+        scope: '@aleserche.test'
     - run: yarn
     - run: yarn lerna version --yes
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    - run: yarn lerna publish from-package --no-verify-access --yes
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     # Setup .npmrc file to publish to gh registry
     - uses: actions/setup-node@v1
       with:
