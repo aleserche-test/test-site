@@ -17,6 +17,9 @@
     "prepack": "pubflow store",
     "postpack": "pubflow restore"
   },
+  "devDependencies": {
+    "@monstrs/publish-flow": "^0.1.3"
+  },
   "publishConfig": {
     "access": "public"
   }
