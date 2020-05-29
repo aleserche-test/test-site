@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/aleserche-test/test-site/compare/@aleserche.test/foo@0.3.0...@aleserche.test/foo@0.4.0) (2020-05-29)
+
+
+### Features
+
+* **foo:** new feat 2 ([97639e0](https://github.com/aleserche-test/test-site/commit/97639e05eab16f9fd42b384d962b5c1ba5e9baa0))
+
+
+
+
+
 # 0.3.0 (2020-05-29)
 
 
