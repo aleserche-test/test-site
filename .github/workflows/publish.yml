@@ -14,6 +14,12 @@ jobs:
         ref: 'master'
         fetch-depth: 0
     - run: |
+        mkdir -p ~/.gnupg/
+        printf "$GPG_SIGNING_KEY" | base64 --decode > ~/.gnupg/private.key
+        gpg --import ~/.gnupg/private.key 
+      env:
+        GPG_SIGNING_KEY: ${{ secrets.GPG_SIGNING_KEY }}
+    - run: |
         git config --local user.email $GIT_EMAIL
         git config --local user.name $GIT_USER
         git config --local user.signingkey $GPG_KEY_ID
@@ -28,12 +34,6 @@ jobs:
         node-version: '14.x'
         registry-url: 'https://registry.npmjs.org'
         scope: '@aleserche.test'
-    - run: |
-        mkdir -p ~/.gnupg/
-        printf "$GPG_SIGNING_KEY" | base64 --decode > ~/.gnupg/private.key
-        gpg --import ~/.gnupg/private.key 
-      env:
-        GPG_SIGNING_KEY: ${{ secrets.GPG_SIGNING_KEY }}
     - run: yarn
     - run: yarn lerna version --yes
       env:
