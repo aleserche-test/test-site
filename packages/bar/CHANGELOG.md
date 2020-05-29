@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/aleserche-test/test-site/compare/@aleserche-test/bar@0.12.0...@aleserche-test/bar@0.13.0) (2020-05-29)
+
+
+### Features
+
+* **bar:** new feat ([05d51c2](https://github.com/aleserche-test/test-site/commit/05d51c2fedc230ad2a3c8ba17e2b89f9e02036ac))
+
+
+
+
+
 # 0.12.0 (2020-05-29)
 
 
