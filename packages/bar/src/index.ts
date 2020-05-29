@@ -7,3 +7,4 @@ export const c = {c: 'c'}
 export const d = {d: 'd'}
 export const e = {e: 'e'}
 export const f = {f: 'f'}
+export const a1 = {a1: 'a1'}
